@@ -1,0 +1,31 @@
+/* body :not(p){
+    color: blue;
+} */
+
+/* body :not(.fancy){
+    color: blue;
+    background: #ddd;
+} */
+
+/* div:empty{
+    background-color: #222;
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+} */
+
+/* :root or html done me se koi ek likh sakte hai */
+
+:root{
+    background-color: #333;
+    color: #eee;
+}
+
+html{   /* iski specificity id jitni hoti hai isiliye eska effect root ke rhte nhi aa rha hai*/
+    background-color: red;
+    color: white;
+}
+
+/* basically root ka use hmm css ki variable banane ke liye use karte hai,
+   background color dene ke liye hmm body ka use karte hai
+*/

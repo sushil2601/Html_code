@@ -1,0 +1,18 @@
+/*  
+    font-size hmesa rem me de,
+    padding and margin hmesa em me de
+*/
+
+html{
+    font-size: 10px;
+}
+
+h1{
+    font-size: 4.8rem;
+    border: 4px solid black;
+    padding: 1em;
+}
+
+p{
+    font-size: 2rem;
+}

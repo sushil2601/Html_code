@@ -1,0 +1,50 @@
+/* Grid Container
+   Grid Item
+   -> not use % in grid, use fraction,
+   auto-fit -- extra column create nhi karta hai,
+   auto-fill --space milega to extra column create kar dega 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    height: 600px;
+    border: 10px solid red;
+    margin: 100px auto;
+    display: grid;
+    grid-auto-rows: 100px;
+    grid-template-columns: repeat(3,150px);
+    gap: 10px;
+    
+}
+
+.item{
+    background: #487eb0;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.item1{
+    /* align-self: start;
+    justify-self: start; */
+
+    /* align-self: center;
+    justify-self: center; */
+
+    /* short hand */
+
+    /* place-self: center end; */
+
+}
+
+

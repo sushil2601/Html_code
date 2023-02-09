@@ -1,0 +1,28 @@
+div#container ul.my-songs li{
+    color: brown;
+    background-color: yellow;
+}
+
+/* how to calculate specificity
+
+    inline style attribute - 0
+    id selector            - 1
+    class selector         - 1
+    element selector       - 3
+
+    specificity = 113
+*/
+
+.favourite{
+    color: yellow;
+    background-color: brown;
+}
+
+/* specificity --> 0010 */
+
+div#container ul.my-songs li.favourite{
+    color: yellow;
+    background-color: brown;
+}
+
+/* specificity --> 0123 */

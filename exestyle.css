@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    padding: 0px 40px;
+}
+
+a{
+    color: #444;
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    color: #222;
+}
+
+h2{
+    border-bottom: 1px solid #444;
+}
+
+nav{
+    background: #cecece;
+}
+
+nav ul{
+    padding-left: 0px;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    border-bottom: 1px solid #444;
+    margin: 20px 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+section{
+    margin-top: 50px;
+}

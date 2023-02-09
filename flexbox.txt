@@ -1,0 +1,26 @@
+-> flexbox container
+-> flexbox items  --> flexbox container ke under ke chiz to flexbox item kahte hai.
+-> flexbox terminologys --> 1.) left se rigth tak hoti hai main axis.
+-> jaha se main axis start hoti hai usko kahte hai main start and jaha end hoti hai usko kahte hai main end.
+                            2.) top se bottom tak hoti hai cross axis.
+-> similarly for cross axis(start ko cross start and end ko cross end)
+
+-> flex container property:-
+            1.)flex direction -- by default flex direction rhti hai 'row'.
+            2.)flex wrap      -- by default nowrap pe set hota hai.
+            3.)justify-content-- by default flex-start rhta hai. ye kam karti hai   main-axis pe.
+            4.)align-item     -- by default stretchrhta hai.ye kam karti hai cross axis pe.
+            5.)align-content  -- ka use tab hmm karte hai jab ek se jyada row ho.ye cross-axis ki taraf kam karti hai.
+            6.) flex flow     -- flex-wrap aur flex-direction dono ko ek sath likhne ke liye flex-flow ka use karte hai.
+
+-> flex item property:-
+            1.)align-self 
+            2.)order       -- by default order 0 rhta hai.Big order bad me aayega.
+            3.)flex-basis  -- initial length flex item ki main axis ki taraf.
+                              flex-basis aur width me flex basis hi consider hoga.
+
+            4.)flex-grow   -- bachhe huye space ko kaise occupy karenge.by default 0.
+                              isme integer value pass karenge.
+
+            5.)flex-shrink -- 
+            6.)flex  -- flex-grow + flex-shrink + flex-basis

@@ -1,0 +1,21 @@
+/* first-letter and first-line pseudo element works with block level element only*/
+
+/* p::first-letter{
+    font-size: 32px;
+} */
+
+/* p::first-line{
+    font-size: 32px;
+} */
+
+/* p::selection{
+    background-color: black;
+    color: white;
+} */
+
+/* Agar kuch v mention nhi karenge to sabhi ke sath hoga*/
+
+::selection{
+    background-color: black;
+    color: white;
+}

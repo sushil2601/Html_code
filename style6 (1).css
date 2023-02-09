@@ -1,0 +1,26 @@
+/* h1{
+    border: 4px solid red;
+
+    view port --vw
+    width: 50vw;
+} */
+
+/* .box1{
+    border: 4px solid red;
+    width: 50%;
+    padding: 5px;
+}
+--> difference b/w 'percentage' and 'vw'
+h1{
+    border: 2px solid green;
+    width: 50%; 
+    width: 50vw;
+} */
+
+.box1{
+    /* width: 100px; */
+    /* height: 100px; */
+    /* height: 100vh; */
+    height: 100vmin;
+    background-color: aqua;
+}

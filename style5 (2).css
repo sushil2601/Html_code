@@ -1,0 +1,20 @@
+ /* specificity --> inline style > id selector > class selector > element selector 
+
+    !important --> increase specificity more
+    nichhe likhe hue heading class ki specificity jyada hogi as compared to h1class se
+*/
+
+h1{
+    color: green;
+}
+.h1class{
+    color: red;
+}
+
+.heading{
+    color: brown; 
+}
+
+/* #h1id{
+    color: blue !important;
+} */

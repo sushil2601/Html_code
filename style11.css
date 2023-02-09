@@ -1,0 +1,17 @@
+/* By default font-size 16px ki hoti hai 
+   text-decoration bydefault browser deta hai anchor tag ko
+*/
+
+h1{
+    letter-spacing: 4px;
+    font-size: 46px;
+    /* text-decoration: overline solid blue; */
+    text-decoration: underline solid red;
+}
+
+p{
+    font-size: 20px;
+    line-height: 40px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}

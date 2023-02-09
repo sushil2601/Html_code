@@ -1,0 +1,25 @@
+/* pseudo classes --> link, visited, hover, active (all are mostly used with link or button */
+
+a:link{
+    color: orange;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: black;
+}
+
+p:hover{
+    color: aqua;
+}
+
+p:active{
+    background: #ccc;
+}

@@ -1,0 +1,19 @@
+/* p{
+    font-size: 200%; 100%, 16 ka 16 hi rhega
+} */
+
+div{
+    border: 2px solid red ;
+    font-size: 10px;
+    width: 50%;
+}
+
+p{
+    border: 1px solid green;
+    width: 50%;
+    /* font-size: 100%; */
+    background: lightblue;
+    margin: 10px auto;
+    /* margin-left: 25%; */
+    text-align: center;
+}

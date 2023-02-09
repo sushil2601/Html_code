@@ -1,0 +1,26 @@
+.cool::before{
+    display: block;
+    content: "hello ";
+    color:green;
+    border: 2px solid red;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.cool::after{
+    display: block;
+    content: "hello ";
+    color:green;
+    border: 2px solid red;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.main-heading::before{
+    content: "hello ";
+    color: red;
+}
+/* before and after ka use hmm usi ke sath kar sakte hai jiske pass kuch content ho,
+   jiske pass content na ho uske sath use nhi kar sakte hai,
+   for-ex:- input,img,br
+*/
